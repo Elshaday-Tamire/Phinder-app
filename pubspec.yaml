@@ -47,7 +47,7 @@ dependencies:
   pretty_gauge:
   share_plus:
   babstrap_settings_screen:
-  #marquee: ^2.2.0
+  
 
 
 
