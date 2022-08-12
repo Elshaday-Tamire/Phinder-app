@@ -51,11 +51,6 @@ class _MenuState extends State<Menu> {
                 //backgroundColor: Colors.blue
               ),
               BottomNavigationBarItem(
-                icon: Icon(Icons.calculate),
-                label: 'Step Counter',
-                //backgroundColor: Colors.blue
-              ),
-              BottomNavigationBarItem(
                 icon: Icon(Icons.settings),
                 label: 'Setting',
                 //backgroundColor: Colors.blue,

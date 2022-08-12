@@ -34,13 +34,13 @@ class _ListViewHomePageState extends State<ListViewHomePage> {
     "Get tested",
     "Get vaccinated",
     "Practice safe sex",
-    "Covered coughing\n" + "or sneezing",
+    "Covered coughing or sneezing",
     "Prevent mosquito bites",
     "Follow traffic laws",
     "Drink only safe water",
     "Breastfeed babies",
     "Reduce stress",
-    "Antibiotics only\n" + "as prescribed",
+    "Antibiotics only as prescribed",
     "Clean your hands properly",
     "Prepare your food correctly",
     "Have regular check-ups",
@@ -202,13 +202,16 @@ class _ListViewHomePageState extends State<ListViewHomePage> {
                               padding: const EdgeInsets.all(10.0),
                               child: Column(
                                 children: [
-                                  Text(
-                                    titleList[index],
-                                    style: TextStyle(
-                                        fontSize: 18,
-                                        color: Color.fromRGBO(51, 83, 176, 1),
-                                        fontWeight: FontWeight.bold,
-                                        fontFamily: "serif"),
+                                  SingleChildScrollView(
+                                    scrollDirection: Axis.vertical,
+                                    child: Text(
+                                      titleList[index],
+                                      style: TextStyle(
+                                          fontSize: 18,
+                                          color: Color.fromRGBO(51, 83, 176, 1),
+                                          fontWeight: FontWeight.bold,
+                                          fontFamily: "serif"),
+                                    ),
                                   ),
                                   ReadMoreText(
                                     description[index],
